@@ -30,7 +30,7 @@ const Signin = () => {
             <Text style={{fontFamily: 'Poppins_600SemiBold'}} className='text-center text-[#102D5B] text-xl'>Selamat Datang</Text>
             <Text style={{fontFamily: 'Poppins_500Medium'}} className='text-center text-[#102D5B]'>Silahkan daftar untuk mulai laundry</Text>
           </View>
-          <View className='mt-6'>
+          <View className='mt-4'>
             <View>
               <Text style={{fontFamily: 'Poppins_500Medium'}} className='ml-5 text-[#102D5B]'>Nama</Text>
               <TextInput
@@ -38,7 +38,7 @@ const Signin = () => {
                 keyboardType='default'
                 onChangeText={setName}
                 cursorColor={'#2A7DFF'}
-                className='bg-[#EFEFEF] px-5 py-4 rounded-md mb-5 text-[#102D5B]'
+                className='bg-[#EFEFEF] px-5 py-2 rounded-md mb-3 text-[#102D5B]'
                 style={{fontFamily: 'Poppins_400Regular'}}
                 
               />
@@ -51,7 +51,7 @@ const Signin = () => {
                 keyboardType='email-address'
                 onChangeText={setName}
                 cursorColor={'#2A7DFF'}
-                className='bg-[#EFEFEF] px-5 py-4 rounded-md mb-5 text-[#102D5B]'
+                className='bg-[#EFEFEF] px-5 py-2 rounded-md mb-3 text-[#102D5B]'
                 style={{fontFamily: 'Poppins_400Regular'}}
               />
             </View>
@@ -63,7 +63,7 @@ const Signin = () => {
                 textContentType='telephoneNumber'
                 onChangeText={setName}
                 cursorColor={'#2A7DFF'}
-                className='bg-[#EFEFEF] px-5 py-4 rounded-md mb-5 text-[#102D5B]'
+                className='bg-[#EFEFEF] px-5 py-2 rounded-md mb-3 text-[#102D5B]'
                 style={{fontFamily: 'Poppins_400Regular'}}
                 
               />
@@ -76,7 +76,7 @@ const Signin = () => {
                 secureTextEntry={true}
                 onChangeText={setName}
                 cursorColor={'#2A7DFF'}
-                className='bg-[#EFEFEF] px-5 py-4 rounded-md mb-5 text-[#102D5B]'
+                className='bg-[#EFEFEF] px-5 py-2 rounded-md mb-3 text-[#102D5B]'
                 style={{fontFamily: 'Poppins_400Regular'}}
                 
               />
@@ -85,6 +85,7 @@ const Signin = () => {
               <Text style={{fontFamily: 'Poppins_500Medium'}} className='text-center text-white my-3'>Daftar</Text>
             </TouchableOpacity>
           </View>
+          <Text style={{fontFamily: 'Poppins_500Medium'}} className='text-center text-[#102D5B] mt-3'>Sudah punya akun? <Text className='underline'>Masuk</Text></Text>
         </View>
       </View>
     </SafeAreaView>
