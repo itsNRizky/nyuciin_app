@@ -28,10 +28,10 @@ const Homescreen = () => {
           <Text style={{fontFamily: 'Poppins_500Medium',}} className='text-sm text-center text-white w-3/4'>Permudah kegiatan laundry mu dengan Nyuci.in!</Text>
         </View>
         <View className='pb-10'>
-          <TouchableOpacity className='bg-white rounded-[10px]' onPress={() => navigation.navigate('Signin')}>
+          <TouchableOpacity className='bg-white rounded-[10px]' onPress={() => navigation.navigate('Signup')}>
             <Text style={{fontFamily: 'Poppins_600SemiBold',}} className='my-3 text-center text-sm text-[#2A7DFF]'>Buat Akun</Text>
           </TouchableOpacity>
-          <Text style={{fontFamily: 'Poppins_400Regular',}} className='text-center text-white mt-3'>Sudah punya akun? <Text className='underline-offset-1 underline'>Masuk sini</Text></Text>
+          <Text style={{fontFamily: 'Poppins_400Regular',}} className='text-center text-white mt-3'>Sudah punya akun? <Text className='underline-offset-1 underline' onPress={() => navigation.navigate('Signin')}>Masuk sini</Text></Text>
         </View>
       </View>
     </SafeAreaView>
