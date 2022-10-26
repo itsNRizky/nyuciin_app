@@ -1,9 +1,8 @@
-import { View, Text, Image, TouchableOpacity } from 'react-native'
+import { View, Text, Image, TouchableOpacity, StatusBar } from 'react-native'
 import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useFonts, Poppins_400Regular, Poppins_600SemiBold, Poppins_500Medium } from '@expo-google-fonts/poppins'
 import { useNavigation } from '@react-navigation/native'
-import { StatusBar } from 'expo-status-bar';
 
 
 const Homescreen = () => {
@@ -19,7 +18,7 @@ const Homescreen = () => {
   }
   return (
     <SafeAreaView>
-      <StatusBar backgroundColor='#2A7DFF' />
+      <StatusBar backgroundColor={'#2A7DFF'}/>
       <View className='bg-[#2A7DFF] px-8 h-screen flex flex-col justify-between '>
         <View></View>
         <View className='flex flex-col items-center'>
